@@ -2,7 +2,7 @@ spring:
   datasource:
     password: root
     username: root
-    url: 'jdbc:mysql://localhost:3307/transportador'
+    url: 'jdbc:mysql://localhost:3306/transportador?useSSL=false&allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true&autoReconnect=true'
   jpa:
     hibernate:
       ddl-auto: update
